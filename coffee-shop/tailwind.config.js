@@ -3,7 +3,26 @@ module.exports = {
   mode:'jit',
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      screens:{
+
+        xs:'320px'
+
+
+      },
+
+      fontFamily:{
+
+        heading:['Bahnschrift','Condensed']
+      },
+
+      colors:{
+
+        heading:'#7D5a50',
+        para:'#393939'
+      },
+  
+    },
   },
   variants: {
     extend: {},
