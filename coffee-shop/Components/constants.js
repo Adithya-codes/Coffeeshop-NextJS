@@ -16,3 +16,23 @@ export const CoffeePromiseArr = [
         text:'Sip the best in your couch. Like a flash - At your doorsteps '
     }
 ]
+
+export const BestsellersArr = [
+
+    {
+        title:'Cappacuino',
+        price:'$65',
+        image:'coffeeIcon.png'
+    },
+    {
+        title:'Frappe',
+        price:'$85',
+        image:'coffee2.png'
+    },
+    {
+        title:'Espereo',
+        price:'$95',
+        image:'coffee3.png'
+    },
+
+]

@@ -4,7 +4,7 @@ import { CoffeePromiseArr as data } from "./constants";
 export const CoffeePromise = () => {
   console.log(data);
   return (
-    <section className="w-full text-center mt-40">
+    <section className="w-full text-center mt-32">
       <h1 className=" font-heading text-heading font-extrabold mb-16 xs:text-4xl">
         {" "}
         A Coffee Promise{" "}
