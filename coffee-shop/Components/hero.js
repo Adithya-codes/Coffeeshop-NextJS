@@ -12,8 +12,8 @@ export const Hero = () => {
             
         </div>
 
-        <div className='hero-image w-full xs:mt-12'>
-            <img src="../images/coffee.png" alt="" className='' />
+        <div className='hero-image w-full xs:mt-24'>
+            <img src="../images/coffeeIcon.png" alt="" className='' />
           
         </div>
         </div>
