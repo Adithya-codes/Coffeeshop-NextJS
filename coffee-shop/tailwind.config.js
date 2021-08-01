@@ -3,13 +3,13 @@ module.exports = {
   mode:'jit',
   darkMode: 'class', // or 'media' or 'class'
   theme: {
+
+ 
     extend: {
       screens:{
-
         xs:'320px'
-
-
       },
+
 
       fontFamily:{
 

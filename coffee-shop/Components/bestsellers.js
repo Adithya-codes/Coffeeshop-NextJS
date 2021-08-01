@@ -4,11 +4,11 @@ import { BestsellersArr as data } from "../Components/constants";
 export const Bestsellers = () => {
   return (
     <div className="w-full text-center mt-20">
-      <h1 className="text-heading font-extrabold xs:text-4xl xs:mb-12">
+      <h1 className="text-heading font-extrabold text-4xl mb-12">
         {" "}
         Bestsellers{" "}
       </h1>
-      <div className="grid w-full xs:grid-cols-1 xs:gap-12">
+      <div className="grid w-full grid-cols-1 gap-12 sm:grid-cols-3">
         {data.map((card, idx) => {
           return (
             <div
