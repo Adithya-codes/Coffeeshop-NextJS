@@ -996,16 +996,16 @@ video {
     width: 4rem;
   }
 
+  .xs\:flex-col {
+    flex-direction: column;
+  }
+
   .xs\:flex-wrap {
     flex-wrap: wrap;
   }
 
   .xs\:pt-1 {
     padding-top: 0.25rem;
-  }
-
-  .xs\:pr-2 {
-    padding-right: 0.5rem;
   }
 
   .xs\:text-3xl {

@@ -13,12 +13,12 @@ export const CoffeePromise = () => {
         {data.map((promise, idx) => {
             return(
           <div key={promise.title} className="Promise mb-16">
-            <div className="flex justify-center">
+            <div className="flex justify-center promise-img xs:w-16">
               {" "}
               <img
                 src={`../images/${promise.image}`}
                 alt=""
-                className="max-w-full xs:w-16 mb-4 "
+                className="max-w-full mb-4 "
               />
             </div>
 
