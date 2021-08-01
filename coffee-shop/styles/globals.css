@@ -763,6 +763,10 @@ video {
   flex-direction: column;
 }
 
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -970,6 +974,10 @@ video {
 
   .xs\:mt-10 {
     margin-top: 2.5rem;
+  }
+
+  .xs\:w-\[4rem\] {
+    width: 4rem;
   }
 
   .xs\:flex-wrap {

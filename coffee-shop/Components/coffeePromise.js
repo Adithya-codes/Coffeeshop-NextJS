@@ -18,7 +18,7 @@ export const CoffeePromise = () => {
               <img
                 src={`../images/${promise.image}`}
                 alt=""
-                className="max-w-full w-[4rem] mb-4 "
+                className="max-w-full xs:w-[4rem] mb-4 "
               />
             </div>
 
