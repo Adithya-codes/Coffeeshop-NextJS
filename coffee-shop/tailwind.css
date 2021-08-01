@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../public/font/BAHNSCHRIFT.TTF");
+    font-display: swap;
+  }

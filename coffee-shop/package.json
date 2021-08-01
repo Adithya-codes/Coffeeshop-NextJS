@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:css":"tailwindcss build ./tailwind.css -o ./styles/globals.css -w --verbose"
   },
   "dependencies": {
     "next": "11.0.0",
